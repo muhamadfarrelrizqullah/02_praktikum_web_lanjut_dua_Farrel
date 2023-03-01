@@ -17,11 +17,11 @@ use App\Http\Controllers\ArticlesController;
 |
 */
 
-Route::get('/', [PageController::class, 'index']);
+//Route::get('/', [PageController::class, 'index']);
 
-Route::get('/about', [PageController::class, 'about']);
+//Route::get('/about', [PageController::class, 'about']);
 
-Route::get('/articles/{id}', [PageController::class, 'articles']);
+//Route::get('/articles/{id}', [PageController::class, 'articles']);
 
 Route::get('/', [HomeController::class, 'index']);
 
